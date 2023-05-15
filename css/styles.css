@@ -39,12 +39,9 @@ img {
 /* header */
 .hdr {
     display: flex;
-    flex-direction: row;
-    
-    width: 1440px;
+    width: 1158px;
 }
 .logo {
-    margin-left: 156px;
     margin-right: 76px;
 
     color: var(--accent-color);
@@ -65,7 +62,6 @@ img {
     color: var(--title-text-color);
 }
 .link.menu {
-    /* 00000 */
     padding: 24px 0;
     color: var(--title-text-color);
 }
@@ -277,7 +273,7 @@ img {
  }
 .button {
     padding: 12px 24px;
-    border: 1px solid var(--primary-cloud-color);
+    border: 1px solid var(--second-main-color);
     border-radius: 4px;
 
     font-family: "Roboto", sans-serif;
@@ -310,7 +306,7 @@ img {
 }
 .project-name {
     padding: 32px 16px;
-    border: 1px solid var(var(--second-main-color));
+    border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
 }
